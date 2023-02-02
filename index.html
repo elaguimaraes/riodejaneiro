@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Rio de Janeiro</title>
+</head>
+
+<body>
+
+    <header class="rj-topbar rj-topbar-bg">
+
+        <div class="container">
+            <div class="rj-logo">
+                <img src="images/Logo Moderna Sol.png" alt="Logo Sun">
+            </div>
+
+            <div class="rj-menu">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="pages/gallery/gallery.html">Gallery</a>
+                    <a href="pages/restaurants/restaurants.html">Restaurants</a>
+                </nav>
+            </div>
+
+            <div class="menu-mobile-icon" onclick="clickMenu()"><ion-icon name="menu-outline"></ion-icon></div>
+            <div class="rj-menu-mobile" id="mobile">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="pages/gallery/gallery.html">Gallery</a>
+                    <a href="/pages/restaurants/restaurants.html">Restaurants</a>
+                </nav>
+
+    </header>
+    
+   <div class="rj-page-home">
+
+        <section class="rj-first-section">
+            <div class="row">
+                <div class="rj-first-section-img col-12">
+                    <div class="rj-img-home">
+                        <img src="images/panorama-no-rio-de-janeiro-vista-panorâmica-do-cima-brasil-177052561.jpg" alt="Copacabana Beach">
+                    </div>
+                </div>  
+              </div>
+        </section>
+
+        <section class="rj-second-section">
+            <div class="row">
+                <div class="col-sm-12 col-lg-5 order-2 order-lg-1">
+                    <div class="rj-text-home">
+                        <h1 class="rj-title padding-bottom-15">Explore our wonderful city!</h1>
+                        <p class="rj-subtitle">
+                         No matter which part of the world you are from, Rio de Janeiro will enchant you.</p>
+                         <a class="rj-btn-home" id="rj-btn-info">
+                            <h1>Explore now</h1>
+                         </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-5 order-1 order-lg-2">
+                    <div class="rj-image-home">
+                        <img src="images/download.jpeg" alt="Copacabana">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js" ></script>
+
+    <script>
+          function clickMenu() {
+        if (mobile.style.display == 'block') {
+            mobile.style.display = 'none'
+        } else {
+            mobile.style.display = 'block'
+        }
+     }
+    </script>
+
+</body>
+</html>

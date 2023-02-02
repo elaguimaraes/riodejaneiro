@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Rio de Janeiro</title>
+</head>
+
+<body>
+
+    <div class="rj-trigger-topbar"></div>
+    <div class="border-top-left"></div>
+    <div class="border-bottom-right"></div>
+
+    <div class="rj-trigger-topbar"></div>
+
+    <header class="rj-topbar rj-topbar-bg">
+
+        <div class="container">
+                <div class="rj-logo">
+                    <img src="../../images/Logo Moderna Sol.png" alt="Logo Sun">
+            </div>
+
+            <div class="rj-menu">
+                <nav>
+                    <a href="../../index.html">Home</a>
+                    <a href="#">Gallery</a>
+                    <a href="/pages/restaurants/restaurants.html">Restaurants</a>
+                </nav>
+            </div>
+
+            <div class="menu-mobile-icon" onclick="clickMenu()"><ion-icon name="menu-outline"></ion-icon></div>
+            <div class="rj-menu-mobile" id="mobile">
+                <nav>
+                    <a href="../../index.html">Home</a>
+                    <a href="#">Gallery</a>
+                    <a href="/pages/restaurants/restaurants.html">Restaurants</a>
+                </nav>
+
+    </header>
+
+
+        <div class="gallery-container">
+
+            <div class="row">
+
+                <div class="rj-text-gallery-left col-sm-12 col-lg-5 order-2 order-lg-1">
+                    <h1>Cristo Redentor</h1>
+                    <p>Postcard from Rio de Janeiro. The statue is located at the top of Morro do Corcovado and measures 38 meters in height.</p>
+                </div>
+
+                <div class="rj-images-gallery-right col-sm-1 col-lg-6 offset-lg-1 order-1 order-lg-2">
+                    <img src="../../pages/gallery/images/pexels-luan-gonçalves-13911606.jpg" class= "image" alt="Cristo Redentor">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="rj-text-gallery-right col-sm-12 col-lg-6 order-2 order-lg-1 offset-lg-6">
+                    <h1>Pão de Açúcar</h1>
+                    <p>
+                        It has a wonderful view of the city, with the right to a cable car ride to enjoy<br>the view. Visiting it close to sunset is a real spectacle.</p>
+                </div>
+
+                <div class="rj-images-gallery-left col-sm-12 col-lg-6 order-1 order-lg-2">
+                    <img src="../../pages/gallery/images/pexels-florencia-potter-351283.jpg" class= "image" alt="Pão de Açúcar">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="rj-text-gallery-left col-sm-12 col-lg-5 order-2 order-lg-1">
+                    <h1>Forte de Copacabana</h1>
+                    <p>An important postcard of Rio built in the 20th century. It has an Army History Museum and shares space with the famous Confeitaria Colombo.</p>
+                </div>
+                <div class="rj-images-gallery-right col-sm-12 col-lg-6 offset-lg-1 order-1 order-lg-2">
+                    <img src="../../pages/gallery/images/forte-de-copacabana.jpeg" class= "image" alt="Forte de Copacabana">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="rj-text-gallery-right col-sm-12 col-lg-6 order-2 order-lg-1 offset-lg-6">
+                    <h1>Museu do Amanhã</h1>
+                    <p>It has a beautiful architecture and a beautiful view of Baía de Guanabara.<br>Its interior has exhibits about the future of the planet and what we must do to<br>help it.</p>
+                </div>
+                <div class="rj-images-gallery-left col-sm-12 col-lg-6 order-1 order-lg-2">
+                    <img src="../../pages/gallery/images/Museu do Amanhã RJ.jpeg" class= "image" alt="Museu do Amanhã">
+                </div>/
+            </div>
+
+            
+            <div class="row">
+
+                <div class="rj-text-gallery-left col-sm-12 col-lg-5 order-2 order-lg-1">
+                    <h1>Lapa</h1>
+                    <p>The most bohemian neighborhood in Rio de Janeiro, with several bars and restaurants for a typical Rio night. There we also find the Arcos da Lapa, Escadaria Selarón and Circo Voador.</p>
+                </div>
+                <div class="rj-images-gallery-right col-sm-12 col-lg-6 offset-lg-1 order-1 order-lg-2">
+                    <img src="../../pages/gallery/images/The Ultimate Self-Guided Walking Tour of Rio de Janeiro, Brazil.jpeg" class= "image" alt="Lapa">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="rj-text-gallery-right col-sm-12 col-lg-6 order-2 order-lg-1 offset-lg-6">
+                    <h1>Praias Cariocas</h1>
+                    <p>It is impossible to go to Rio and not go to the beach and walk<br>along the seafront promenade. The most visited beaches in Rio are:<br>Copacabana, Ipanema, Leme, Arpoador and Praia da Barra.</p>
+                </div>
+                <div class="rj-images-gallery-left col-sm-12 col-lg-6 order-1 order-lg-2">
+                    <img src="../../pages/gallery/images/praia-rj.jpeg" class= "image" alt="Praias Cariocas">
+                </div>
+            </div>
+
+        </div>
+
+
+
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js" ></script>
+
+
+    <script>
+          function clickMenu() {
+        if (mobile.style.display == 'block') {
+            mobile.style.display = 'none'
+        } else {
+            mobile.style.display = 'block'
+        }
+     }
+    </script>
+
+
+</body>
+</html>

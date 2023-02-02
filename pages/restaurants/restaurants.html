@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Rio de Janeiro</title>
+</head>
+
+<body>
+
+    <div class="rj-trigger-topbar"></div>
+    <div class="border-top-left"></div>
+    <div class="border-bottom-right"></div>
+
+    <div class="rj-trigger-topbar"></div>
+
+    <header class="rj-topbar rj-topbar-bg">
+
+        <div class="container">
+                <div class="rj-logo">
+                    <img src="../../images/Logo Moderna Sol.png" alt="Logo Sun">
+            </div>
+
+            <div class="rj-menu">
+                <nav>
+                    <a href="../../index.html">Home</a>
+                    <a href="../gallery/gallery.html">Gallery</a>
+                    <a href="#">Restaurants</a>
+                </nav>
+            </div>
+
+            <div class="menu-mobile-icon" onclick="clickMenu()"><ion-icon name="menu-outline"></ion-icon></div>
+            <div class="rj-menu-mobile" id="mobile">
+                <nav>
+                    <a href="../../index.html">Home</a>
+                    <a href="../gallery/gallery.html">Gallery</a>
+                    <a href="#">Restaurants</a>
+                </nav>
+
+    </header>
+
+
+    <div class="restaurants-container">
+
+        <section>
+                <div class="rj-restaurants">
+                    <div class="rj-restaurants-img">
+                        <img src="images/Skylab tem almoço especial para o dia das mães.jpeg" alt="Skylab Restaurant">
+                    </div>
+                    <div class="rj-text-restaurants">
+                        <h1>Skylab</h1>
+                        <p>The Skylab restaurant is located on the 30th floor of the Rio Othon palace Hotel and has a spectacular view of Copacabana beach.</p>
+                    </div>
+                </div>
+        
+                <div class="rj-restaurants">
+                    <div class="rj-restaurants-img">
+                        <img src="images/Aprazível restaurante, Rio de Janeiro - RJ, Brasil.jpeg" alt="Aprazível Restaurant">
+                    </div>
+                    <div class="rj-text-restaurants">
+                        <h1>Aprazível</h1>
+                        <p>
+                            Aprazível is located in the Santa Teresa neighborhood and is the darling of tourists. It has a privileged view and its dishes value tropical flavors and are very Brazilian.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+                <div class="rj-restaurants">
+                    <div class="rj-restaurants-img">
+                        <img src="images/confeitaria-colombo.jpeg" alt="Confeitaria Colombo">
+                    </div>
+                    <div class="rj-text-restaurants">
+                        <h1>Confeitaria Colombo</h1>
+                        <p>
+                            It is one of the most famous environments in Rio. Owner of a classic and elegant style. The Centro unit is undoubtedly the most iconic.</p>
+                    </div>
+                </div>
+    
+                <div class="rj-restaurants">
+                    <div class="rj-restaurants-img">
+                        <img src="images/bar-da-laje.jpeg" alt="Bar da Laje">
+                    </div>
+                    <div class="rj-text-restaurants">
+                        <h1>Bar da Laje</h1>
+                        <p>Bar da Laje is another tourist spot in the city that deserves your attention. Privileged with an incredible view of the sea and the Dois Irmãos hill, it is located in Vidigal.</p>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js" ></script>
+   
+    <script>
+          function clickMenu() {
+        if (mobile.style.display == 'block') {
+            mobile.style.display = 'none'
+        } else {
+            mobile.style.display = 'block'
+        }
+     }
+    </script>
+     
+
+</body>
+</html>

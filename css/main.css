@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Titillium+Web:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+@keyframes topbarBg {
+    from {
+        background: transparent;
+    }
+    to {
+        background: rgb(205, 205, 149);
+    }
+}
+
+@media screen and (min-width:320px) {
+.rj-trigger-topbar {
+    width: 1px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: 0;
+    background: transparent;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.rj-topbar {
+    width: 100%;
+    height: 70px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: transparent;
+    z-index: 900;
+}
+
+.rj-logo {
+    width: 50%;
+}
+
+.rj-logo img {
+    width: 50px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+.rj-topbar-bg {
+    animation: topbarBg 0.2s ease-out forwards;
+}
+
+/*.rj-social-links {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.rj-social ion-icon {
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 35%;
+    margin-top: 15px;
+    margin-right: 10px;
+    background: rgb(205, 205, 149);
+    padding: 5px;
+}
+
+.rj-social ion-icon:hover {
+    color: #000;
+    background: #fff;
+}
+
+.rj-social-links a {
+    text-decoration: none;
+}*/
+
+/*MENU MOBILE*/
+.rj-menu-mobile {
+    display: none;
+    margin-top: 60px;
+    right: -200px;
+    position: fixed;
+    -webkit-transition: all ease .1s;
+    transition: all ease .1s;
+}
+
+.rj-menu-mobile#mobile {
+    right: 50px;
+}
+
+.rj-menu-mobile nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(205, 205, 149);
+    border: #fff;
+    border-top: 2px solid #fff;
+}
+
+.rj-menu-mobile nav a:hover {
+    background-color: white;
+    color: #000;
+}
+
+.menu-mobile-icon ion-icon {
+    display: block;
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    right: 12vh;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(205, 205, 149);
+}
+
+.menu-mobile-icon ion-icon:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 35%;
+}
+
+.rj-menu {
+    display: none;
+}
+
+
+/*PÁGINA HOME*/
+
+.rj-first-section-img img{
+    width: 100%;
+    height: 250px;
+    display: block;
+    position: relative;
+    top: 10px;
+    z-index: 800;
+}
+
+.rj-image-home img {
+    width: 70%;
+    height: 400px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 80px auto;
+    border-radius: 24%;
+}
+
+.rj-text-home {
+    text-align: center;
+    align-items: center;
+    font-weight: 320;
+}
+
+.rj-btn-home {
+    display: table;
+    position: relative;
+    padding: 6px;
+    margin: 0 auto;
+    top: 20px;
+    color: #000;
+    border: 1px solid #555;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 900;
+}
+
+
+.rj-btn-home {
+    margin-bottom: 70px;
+}
+
+.rj-btn-home h1 {
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    text-align: center;
+}
+
+.rj-btn-home:hover {
+    color: #fff;
+    background:#000;
+    transition: all 1s ease-out;
+}
+
+/* GALLERY*/
+.gallery-container {
+    height: 100%;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.gallery-container img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+.rj-text-gallery {
+    width: 100%;
+    max-width: 1600px;
+    padding: 20px 20px;
+    text-align: justify;
+}
+
+.rj-text-gallery-left {
+    padding: 0 60px;
+}
+
+.rj-text-gallery-left h1, .rj-text-gallery-right h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.rj-text-gallery-left p, .rj-text-gallery-right p {
+    font-size: 18px;
+    font-weight: 250;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 60px;
+}
+
+.rj-images-gallery-left, .rj-images-gallery-right {
+    align-items: center;
+    text-align: center;
+}
+
+.rj-images-gallery-left img, .rj-images-gallery-right img {
+    width: 80%;
+    height: 450px;
+    border-radius: 15%;
+    padding-bottom: 30px;
+}
+
+
+/* RESTAURANTS*/
+.restaurants-container {
+   display: flex;
+   gap: 40px;
+   padding: 10% 8%;
+   flex-direction: row;
+   text-align: center;
+   background-color:rgb(205, 205, 149);
+}
+
+.rj-restaurants {
+    display: flex;
+    flex-direction: column;;
+    margin-bottom: 50px;
+    border: 1px solid white;
+    padding: 20px 0;
+    background-color: white;
+    transition: 1s;
+    margin-top: 60px;
+}
+
+.rj-restaurants:hover {
+    transform: scale(1.075);
+}
+
+.rj-text-restaurants {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.rj-text-restaurants h1 {
+    font-size: 24px;
+}
+
+.rj-text-restaurants p {
+    font-size: 14px;
+}
+
+.rj-restaurants-img img{
+    width: 70%;
+    height: 250px;
+}
+
+}
+
+@media screen and (max-width:480px) {
+
+.rj-images-gallery-left img, .rj-images-gallery-right img {
+   margin: auto;
+}
+
+.rj-logo {
+   margin-left: -12px;
+}
+
+.restaurants-container {
+    padding-top: 150px;
+}
+            
+}
+
+@media screen and (max-width:576px) {
+    
+}
+
+@media screen and (max-width:648px) {
+
+}
+
+@media screen and (max-width:768px) {
+.restaurants-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+    
+.rj-restaurants-img img{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+}
+
+@media screen and (min-width:992px) {
+
+.rj-menu {
+    display: table;
+    float: left;
+    height: 110px;
+    margin-left: 30px;
+}
+    
+.rj-menu nav a{
+    position: relative;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 30px 10px 0;
+    top: 15px;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+  
+.rj-menu nav a::after {
+    content: " ";
+    width: 0%;
+    height: 3px;
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+    
+.rj-menu nav a:hover::after {
+    width: 75%;
+}
+
+.rj-menu-mobile nav a, .menu-mobile-icon {
+    display: none;
+}
+
+.rj-text-home {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 190px;
+}
+
+.rj-image-home img {
+    width: 520px;
+    height: 450px;
+}
+
+
+/* GALLERY*/
+
+.gallery-container {
+    padding: 50px 0;
+    margin-top: 65px;
+    overflow: auto;
+}
+
+.rj-text-gallery {
+    padding: 20px 20px;
+    text-align: justify;
+}
+
+.gallery-container h1 {
+    font-size: 32px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.gallery-container img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+.gallery-container .image:hover img {
+    transform: scale(1.5);
+}
+
+.rj-text-gallery-right {
+    float: right;
+    text-align: right;
+    top: 200px;
+    text-align: justify;
+}
+
+.rj-text-gallery-left {
+    float: left;
+    text-align: left;
+    top: 100px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.rj-images-gallery-right {
+    float: right;
+    padding-bottom: 150px;
+}
+
+.rj-images-gallery-left {
+    float: left;
+    margin-left: 20px;
+    bottom: 100px;
+}
+
+.rj-images-gallery-left img, .rj-images-gallery-right img {
+    width: 95%;
+    height: 450px;
+    border-radius: 15%;
+}
+
+}
