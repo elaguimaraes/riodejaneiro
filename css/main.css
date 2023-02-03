@@ -63,14 +63,14 @@
 .rj-menu-mobile {
     display: none;
     margin-top: 60px;
-    margin-right: 20px;
+    right: -200px;
     position: fixed;
     -webkit-transition: all ease .1s;
     transition: all ease .1s;
 }
 
 .rj-menu-mobile#mobile {
-    right: 50px;
+    left: -240px;
 }
 
 .rj-menu-mobile nav a {
