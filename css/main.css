@@ -59,32 +59,6 @@
     animation: topbarBg 0.2s ease-out forwards;
 }
 
-/*.rj-social-links {
-    display: block;
-    position: relative;
-    cursor: pointer;
-}
-
-.rj-social ion-icon {
-    font-size: 20px;
-    display: inline-block;
-    color: #fff;
-    border-radius: 35%;
-    margin-top: 15px;
-    margin-right: 10px;
-    background: rgb(205, 205, 149);
-    padding: 5px;
-}
-
-.rj-social ion-icon:hover {
-    color: #000;
-    background: #fff;
-}
-
-.rj-social-links a {
-    text-decoration: none;
-}*/
-
 /*MENU MOBILE*/
 .rj-menu-mobile {
     display: none;
