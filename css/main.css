@@ -89,7 +89,7 @@
 .rj-menu-mobile {
     display: none;
     margin-top: 60px;
-    right: -200px;
+    margin-right: 40px;
     position: fixed;
     -webkit-transition: all ease .1s;
     transition: all ease .1s;
