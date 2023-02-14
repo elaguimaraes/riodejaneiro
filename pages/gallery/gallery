@@ -26,18 +26,18 @@
 
             <div class="rj-menu">
                 <nav>
-                    <a href="../../index.html">Home</a>
+                    <a href="../../index">Home</a>
                     <a href="#">Gallery</a>
-                    <a href="https://elaguimaraes.github.io/riodejaneiro/pages/restaurants/restaurants.html">Restaurants</a>
+                    <a href="/pages/restaurants/restaurants">Restaurants</a>
                 </nav>
             </div>
 
             <div class="menu-mobile-icon" onclick="clickMenu()"><ion-icon name="menu-outline"></ion-icon></div>
             <div class="rj-menu-mobile" id="mobile">
                 <nav>
-                    <a href="../../index.html">Home</a>
+                    <a href="../../index">Home</a>
                     <a href="#">Gallery</a>
-                    <a href="https://elaguimaraes.github.io/riodejaneiro/pages/restaurants/restaurants.html">Restaurants</a>
+                    <a href="/pages/restaurants/restaurants">Restaurants</a>
                 </nav>
 
     </header>

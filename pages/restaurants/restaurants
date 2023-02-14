@@ -26,8 +26,8 @@
 
             <div class="rj-menu">
                 <nav>
-                    <a href="../../index.html">Home</a>
-                    <a href="../gallery/gallery.html">Gallery</a>
+                    <a href="../../index">Home</a>
+                    <a href="../gallery/gallery">Gallery</a>
                     <a href="#">Restaurants</a>
                 </nav>
             </div>
@@ -35,8 +35,8 @@
             <div class="menu-mobile-icon" onclick="clickMenu()"><ion-icon name="menu-outline"></ion-icon></div>
             <div class="rj-menu-mobile" id="mobile">
                 <nav>
-                    <a href="../../index.html">Home</a>
-                    <a href="../gallery/gallery.html">Gallery</a>
+                    <a href="../../index">Home</a>
+                    <a href="../gallery/gallery">Gallery</a>
                     <a href="#">Restaurants</a>
                 </nav>
 
